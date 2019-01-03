@@ -1,4 +1,4 @@
-# Samples for the Azure IoT device SDK for Python
+# Send UWB data to Azure using Azure IoT device SDK for Python
 
 This folder contains simple samples showing how to use the various features of the Microsoft Azure IoT Hub service from a device running Python.
 
