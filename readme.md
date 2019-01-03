@@ -15,13 +15,9 @@ In order to run the device samples you will first need the following prerequisit
 * [Create an Azure IoT Hub instance][lnk-setup-iot-hub]
 * [Create a device identity for your device][lnk-manage-iot-hub] and retrieve the primary connection string for this device
 
-Once you have a device identity for your sample,
-* Get the sample files:
-   * if you have cloned the repository, Navigate to the folder **device/samples**
-   * if you are using the iothub_client module installed with pip, download the samples folder content to your target.
 * Run the sample application using the following command to run the simple sample (replacing `<device connection string>` with the one generated previously):
     ```
-	python iothub_client_sample.py -c < device connection string > -p < mqtt|http|amqp >
+	python iothub_client_anchorList.py 
     ```
 
 [lnk-setup-iot-hub]: https://aka.ms/howtocreateazureiothub
